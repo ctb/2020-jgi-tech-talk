@@ -1,11 +1,10 @@
-all: twofoo.fq.gz gtdb-release89-k31.sbt.zip gtdb-release89-k31.lca.json.gz \
-
+all: twofoo.fq.gz gtdb-release89-k31.sbt.zip gtdb-release89-k31.lca.json.gz
 
 gtdb-release89-k31.sbt.zip:
 	curl -L https://osf.io/5mb9k/download > gtdb-release89-k31.sbt.zip
 
 gtdb-release89-k31.lca.json.gz:
-    curl -L https://osf.io/gs29b/download > gtdb-release89-k31.lca.json.gz
+	curl -L https://osf.io/gs29b/download > gtdb-release89-k31.lca.json.gz
 
 #
 # akker-reads.abundtrim.gz is a collection of reads from podar data
